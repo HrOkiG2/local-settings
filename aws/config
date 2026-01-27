@@ -1,0 +1,7 @@
+[default]
+region = ap-northeast-1
+output = json
+cli_auto_prompt = on-partial
+
+[profile {profileName}]
+mfa_serial = arn:aws:iam::{accountId}:mfa/{IAMUser}
